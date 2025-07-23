@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Font styles */
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* color section */
+
+.primary-color {
+  color: #e95a08;
+}
+.dark02 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* sheared style */
+.display-flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.text-m {
+  font-weight: bold;
+}
+
+/* Header syles  */
+
+nav {
+  max-width: 1140px;
+}
+.nav-var {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  align-items: center;
+}
+nav li {
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  width: 415px;
+  height: 24px;
+}
