@@ -30,7 +30,6 @@
 .display-flex {
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
 }
 
 .text-m {
@@ -53,6 +52,46 @@ nav li {
 }
 nav ul {
   list-style: none;
-  width: 415px;
+  width: 410px;
   height: 24px;
+}
+/* Hero Banner style */
+.hero-banner {
+  max-width: 1140px;
+  margin: 0 auto;
+  align-items: last baseline;
+  margin-top: 130px;
+}
+.banner-tittle {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.banner-dis {
+  font-size: 1.3rem;
+  margin-top: 13px;
+  width: 570;
+  height: 108px;
+}
+.banner-img {
+  width: 570px;
+  height: 355px;
+}
+
+/* media Quarey */
+
+@media screen and (max-width: 576px) {
+  .nav-hide {
+    display: none;
+  }
+  /* .nav-var {
+    width: 361px;
+    height: 38px;
+  } */
+  .hero-banner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-img {
+    height: 576px;
+  }
 }
