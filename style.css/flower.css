@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 
@@ -113,17 +113,49 @@ nav ul {
 }
 .btn {
   margin-top: 30px;
-  padding: 19px 50px;
+  padding: 10px 50px;
   height: 50px;
   width: 270px;
   background-color: #e95a08;
   border: none;
+  align-items: center;
+  text-align: center;
 }
 .btn-tittle {
   color: white;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
+}
+
+/* Flower-store styles */
+.Flower-store {
+  max-width: 1140px;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 60px;
+  margin-top: 210px;
+}
+.flower-img {
+  width: 540px;
+  height: 597px;
+}
+/* .trusted-badge {
+  width: 286px;
+  height: 286px;
+  } */
+.flower-tittle {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.flower-li-dis {
+  font-size: 1.25rem;
+  width: 540px;
+  height: 108px;
+}
+.Gapping {
+  margin-top: 20px;
 }
 
 /* media Quarey */
@@ -141,10 +173,13 @@ nav ul {
     align-items: center;
   }
   .banner-img {
-    height: 576px;
+    height: 560px;
   }
   .plants-card-areas {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+  }
+  .Flower-store {
+    flex-direction: column;
   }
 }
