@@ -77,6 +77,55 @@ nav ul {
   height: 355px;
 }
 
+/* banner-plants styles */
+
+.banner-plants {
+  text-align: center;
+  margin-top: 140px;
+}
+.plants-tittle {
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+.plants-pera {
+  font-size: 1.3rem;
+}
+.plants-card-areas {
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.palnts-card {
+  width: 270px;
+  height: 485px;
+  margin-bottom: 30px;
+}
+.plant-tittle2 {
+  font-size: 1.3rem;
+  margin-top: 30px;
+  text-align: center;
+}
+.h4-gap {
+  margin-top: 10px;
+}
+.btn {
+  margin-top: 30px;
+  padding: 19px 50px;
+  height: 50px;
+  width: 270px;
+  background-color: #e95a08;
+  border: none;
+}
+.btn-tittle {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
 /* media Quarey */
 
 @media screen and (max-width: 576px) {
@@ -93,5 +142,9 @@ nav ul {
   }
   .banner-img {
     height: 576px;
+  }
+  .plants-card-areas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 }
