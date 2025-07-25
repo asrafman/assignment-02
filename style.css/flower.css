@@ -36,7 +36,7 @@
   font-weight: bold;
 }
 
-/* Header syles  */
+/* Header styles  */
 
 nav {
   max-width: 1140px;
@@ -204,7 +204,27 @@ nav ul {
   text-align: center;
   color: white;
 }
-
+.footer-main {
+  max-width: 1440px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px 160px;
+}
+.footer-li {
+  list-style: none;
+}
+.footer-li li {
+  margin-bottom: 32px;
+}
+.footer-p {
+  font-size: 1.25rem;
+}
+.footer-left {
+  display: flex;
+  gap: 24px;
+  width: 216px;
+  height: 25px;
+}
 /* media Quarey */
 
 @media screen and (max-width: 576px) {
@@ -232,6 +252,10 @@ nav ul {
   .flower-tittle {
     font-size: 2.5rem;
   }
+  .flower-img {
+    width: auto;
+    height: auto;
+  }
   .lates-deals {
     margin-top: 400px;
   }
@@ -240,9 +264,29 @@ nav ul {
     height: 50px;
     padding: 20px 8px;
   }
+  .join-tittle {
+    font-size: 2rem;
+  }
   .btn-2 {
     height: 50px;
     width: 103px;
     padding: 10px 8px;
+  }
+  .footer-main {
+    flex-direction: column;
+    padding: 0;
+  }
+  .footer-li li {
+    margin-left: auto;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .footer-li,
+  .banner-dis,
+  .plants-pera,
+  .flower-li-dis,
+  .flower-p,
+  .footer-p {
+    font-size: 1rem;
   }
 }
