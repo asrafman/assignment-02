@@ -174,10 +174,37 @@ nav ul {
 .join-grp {
   margin: 0 auto;
   margin-top: 130px;
+  max-width: 1440px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .join-batch {
   text-align: center;
 }
+.join-tittle {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: white;
+}
+.input-box {
+  width: 600px;
+  height: 50px;
+  padding: 20px 8px;
+}
+.btn-2 {
+  margin-top: 30px;
+  padding: 10px 50px;
+  height: 50px;
+  width: 270px;
+  background-color: #e95a08;
+  border: none;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
 /* media Quarey */
 
 @media screen and (max-width: 576px) {
@@ -207,5 +234,15 @@ nav ul {
   }
   .lates-deals {
     margin-top: 400px;
+  }
+  .input-box {
+    width: 218px;
+    height: 50px;
+    padding: 20px 8px;
+  }
+  .btn-2 {
+    height: 50px;
+    width: 103px;
+    padding: 10px 8px;
   }
 }
